@@ -8,7 +8,7 @@ describe "StaticPages" do
     end
     it "should have the right title" do
       visit '/static_pages/home'
-      expect(page).to have_title('Ruby on Rails Tutorial App | Home')
+      expect(page).to have_title('Ruby on Rails Tutorial Sample App | Home')
     end
   end
 
@@ -19,7 +19,7 @@ describe "StaticPages" do
     end
     it "should have the right title" do
       visit '/static_pages/help'
-      expect(page).to have_title('Ruby on Rails Tutorial App | Help')
+      expect(page).to have_title('Ruby on Rails Tutorial Sample App | Help')
     end
   end
 
@@ -30,7 +30,7 @@ describe "StaticPages" do
     end
     it "should have the right title" do
       visit '/static_pages/about'
-      expect(page).to have_title('Ruby on Rails Tutorial App | About Us')
+      expect(page).to have_title('Ruby on Rails Tutorial Sample App | About Us')
     end
   end
 
